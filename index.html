@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="style"
+      media="only screen and (max-width: 600px)"
+      href="mobile.css" />
+    <link
+      rel="style"
+      media="only screen and (min-width: 601px)"
+      href="desktop.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="qwerty.png" alt="My music" target="black" />MY MUSIC
+        </li>
+        <a href="Home" class="home1">Home</a>
+        <a href="Home" class="about1">About</a>
+      </ul>
+    </nav>
+
+    <div class="container">
+       
+      <div class="songlist">
+        <h2 class="headtag">Play Any Song</h2>
+        <div class="songitemcontainer">
+          <div class="SongItem">
+            <img alt="" />
+           
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30
+                <i id="0" class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="1"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname">Dreams</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="2"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname">Ale Golmaal 3 320 Kbps</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="3"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname">Get the Power</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="4"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname">Gamma Skies - I'm Golden</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="5"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname">Dont say</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="6"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="SongItem">
+            <img alt="" />
+            <span class="songname">Kesariya</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >05:30<i
+                  id="7"
+                  class="far songItemplay fa-play-circle"></i> </span
+            ></span>
+          </div>
+        </div>
+       
+      </div>
+      
+      <img src="technology5-removebg-preview.png" class="imageside"/>
+    </div>
+    <span class="songName"></span>
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myprogessbar"
+        min="0"
+        value="0"
+        max="100" />
+      <div class="icons">
+        
+
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+      </div>
+      
+    </div>
+    <script
+      src="https://kit.fontawesome.com/c2275d34c5.js"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
